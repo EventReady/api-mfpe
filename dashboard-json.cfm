@@ -1,0 +1,216 @@
+<cfscript>
+	response = {
+		"success":true,
+		"data":{
+			"venueMaps":[
+			],
+			"banners":[
+				{
+					"title":"MFPE Conference",
+					"banner":"https://mobile.eventready.com/files/mfpe/logo.png"
+				} 
+			],
+			"speakerMenu":{
+				"featureRow":[
+					{
+					"page":"SpeakerSessionsPage",
+					"icon":"md-list-box",
+					"title":"My Sessions"
+					},
+					{
+					"page":"VenuesPage",
+					"icon":"md-image",
+					"title":"Venue"
+					},
+					{
+					"page":"InfoBoothPage",
+					"icon":"md-information-circle",
+					"title":"Info"
+					},
+					{
+					"page":"SponsorsPage",
+					"icon":"md-people",
+					"title":"Sponsors"
+					}
+				],
+				"row1":[
+					{
+					"page":"WhatsOnPage",
+					"icon":"md-alarm",
+					"title":"What&apos;s On"
+					},
+					{
+					"page":"YoutubePage",
+					"icon":"logo-youtube",
+					"title":"Youtube"
+					},
+					{
+					"page":"TwitterPage",
+					"icon":"logo-twitter",
+					"title":"Twitter"
+					}
+				]
+			},
+			"attendeeMenu":{
+				"featureRow":[
+					{
+					"page":"InfoBoothPage",
+					"icon":"md-information-circle",
+					"title":"Info"
+					},
+					{
+					"page":"DocumentsPage",
+					"icon":"md-albums",
+					"title":"Event Materials"
+					},
+					{
+					"page":"MyDocumentsPage",
+					"icon":"md-briefcase",
+					"title":"My materials"
+					},
+					{
+					"page":"MyNotesPage",
+					"icon":"md-create",
+					"title":"My Notes"
+					}
+				],
+				"row1":[
+					{
+					"page":"WhatsOnPage",
+					"icon":"md-alarm",
+					"title":"What&apos;s On"
+					},
+					{
+					"page":"SchedulePage",
+					"icon":"md-calendar",
+					"title":"Schedule"
+					},
+					{
+					"page":"MySchedulePage",
+					"icon":"md-list-box",
+					"title":"My Schedule"
+					}
+				],
+				"row2":[
+					{
+					"page":"ExhibitorsPage",
+					"icon":"md-contacts",
+					"title":"Exhibitors"
+					},
+					{
+					"page":"SpeakersPage",
+					"icon":"md-school",
+					"title":"Speakers"
+					},
+					{
+					"page":"MessagesPage",
+					"icon":"md-mail",
+					"title":"Messaging"
+					}
+				],
+				"row3":[
+				]
+			},
+			"attendeeSidebar":[
+				{
+					"icon":"bookmark",
+					"title":"Dashboard",
+					"component":"DashboardPage"
+				},
+				{
+					"icon":"md-information-circle",
+					"title":"Info",
+					"component":"InfoBoothPage"
+				},
+				{
+					"icon":"md-school",
+					"title":"Speakers",
+					"component":"SpeakersPage"
+				},
+				{
+					"icon":"md-image",
+					"title":"Venue",
+					"component":"VenuesPage"
+				},
+				{
+					"icon":"md-alarm",
+					"title":"Whats On",
+					"component":"WhatsOnPage"
+				},
+				{
+					"icon":"md-calendar",
+					"title":"Schedule",
+					"component":"SchedulePage"
+				},
+				{
+					"icon":"md-list-box",
+					"title":"My Schedule",
+					"component":"MySchedulePage"
+				},
+				{
+					"icon":"md-contacts",
+					"title":"Exhibitors",
+					"component":"ExhibitorsPage"
+				},
+				{
+					"icon":"md-people",
+					"title":"My Notes",
+					"component":"MyNotesPage"
+				},
+				{
+					"icon":"md-contact",
+					"title":"My Exhibitors",
+					"component":"MyExhibitorsPage"
+				},
+				{
+					"icon":"person",
+					"title":"My Profile",
+					"component":"MyProfilePage"
+				},
+				{
+					"icon":"logo-facebook",
+					"title":"Facebook",
+					"component":"FacebookPage"
+				},
+				{
+					"icon":"logo-twitter",
+					"title":"Twitter",
+					"component":"TwitterPage"
+				}
+			],
+			"speakerSidebar":[
+				{
+					"icon":"bookmark",
+					"title":"Dashboard",
+					"component":"DashboardPage"
+				},
+				{
+					"icon":"md-information-circle",
+					"title":"Info",
+					"compon ent":"InfoBoothPage"
+				},
+				{
+					"icon":"md-list-box",
+					"title":"My Sessions",
+					"component":"SpeakerSessionsPage"
+				},
+				{
+					"icon":"md-image",
+					"title":"Venue",
+					"component":"VenuesPage"
+				},
+				{
+					"icon":"md-people",
+					"title":"Sponsors",
+					"component":"SponsorsPage"
+				},
+				{
+					"icon":"md-alarm",
+					"title":"Whats On",
+					"component":"WhatsOnPage"
+				}
+			]
+		}
+	};
+	
+</cfscript>
